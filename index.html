@@ -1,0 +1,315 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmler</title>
+    <link rel="stylesheet" href="/css_javascript_filmsitesi/style.css">
+    </link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <div class="navbar">
+
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <h1 class="logo">CEHENNEMBALYOZU</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Ana Sayfa</li>
+                    <li class="menu-list-item">Filmler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Listem</li>
+                    <li class="menu-list-item">Popüler</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img>
+                <div class="profile-text-container">
+
+                    <img class="resim-kullanici"
+                        src="data:image/jpeg;base64,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"
+                        alt="resim-kullanici">
+                    <span class="profile-text">Hesabım</span>
+                    <i class="bi bi-chevron-compact-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                    <i class="bi bi-moon-stars-fill toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- navbar end -->
+    <!-- sidebar start -->
+    <div class="sidebar">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-house-door-fill"></i>
+        <i class="bi bi-people-fill"></i>
+        <i class="bi bi-bookmarks-fill"></i>
+        <i class="bi bi-hourglass-top"></i>
+        <i class="bi bi-cart-fill"></i>
+        <i class="bi bi-gear-fill"></i>
+
+    </div>
+    <!-- sidebar end -->
+    <!--! content start-->
+    <!-- featured content start -->
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="featured-content">
+                <img class="featured-title" src="/css_javascript_filmsitesi/resimler/unnamed.png" alt="">
+                <p class="featured-desc">"Terazinin iki tarafında kimin durduğunun önemi yok. Önemli olan kefeyi tutan demir."
+                    - Mehmet Karahanlı
+                    <br>
+                    "Bu alemde gece mahkum olan gündüz hakim olamaz."
+                    - Laz Ziya <br>
+                    "İtaatsizliğin raconunu biz koymadık ama biz uygularız" -Polat Alemdar
+                    </p>
+                <div class="featured-buttons">
+                    <button class="play-button">
+                        <i class="bi bi-play-circle"></i>
+                        <p class="info-details">  Oynat</p>
+                    </button>
+                    <button class="info-button">
+                        <i class="bi bi-info-circle"></i>
+                       <p class="info-details">Daha Fazla Bilgi</p>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+         <!-- featured content end -->
+         <!-- filter start -->
+        <div class="movie-list-filter">
+            <select>
+                <option>Aksiyon</option>
+                <option>Animasyon</option>
+                <option>Belgesel</option>
+                <option>Komedi</option>
+                <option>Bilim Kurgu</option>
+            </select>
+        </div>
+        <!-- filter end -->
+        <!-- movie list start -->
+        <div class="movie-list-container">
+            <h1 movie-list-title>Popüler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="https://tr.web.img3.acsta.net/pictures/15/08/21/13/14/543377.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Everest</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim2.jpg">
+                        <div class="movie-info"><span class="movie-item-title">The Lord of the Rings</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim3.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Harry Potter</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim4.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Hobbit</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim5.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Avatar</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim6.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Jurassic World</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 movie-list-title>Gündemdekiler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="https://tr.web.img3.acsta.net/pictures/15/08/21/13/14/543377.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Everest</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim2.jpg">
+                        <div class="movie-info"><span class="movie-item-title">The Lord of the Rings</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim3.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Harry Potter</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim4.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Hobbit</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim5.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Avatar</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim6.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Jurassic World</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 movie-list-title>Yeni Çıkanlar</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="https://tr.web.img3.acsta.net/pictures/15/08/21/13/14/543377.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Everest</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim2.jpg">
+                        <div class="movie-info"><span class="movie-item-title">The Lord of the Rings</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim3.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Harry Potter</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim4.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Hobbit</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim5.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Avatar</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="/css_javascript_filmsitesi/resimler/resim6.jpg">
+                        <div class="movie-info"><span class="movie-item-title">Jurassic World</span></div>
+                        <div class="movie-item-buttons">
+                            <i class="bi bi-play-fill"></i>
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            <i class="bi bi-hand-thumbs-down-fill"></i>
+                            <i class="bi bi-plus-circle-fill"></i>
+                        </div>
+                    </li>
+                </ul>
+               <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <!-- movie list end -->
+    </div>
+   
+    <!-- content end -->
+    <script src="/css_javascript_filmsitesi/script.js">
+
+    </script>
+</body>
+
+</html>
